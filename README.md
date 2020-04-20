@@ -10,4 +10,4 @@ Thirdly, the code assumes certain columns exist, such as 'Box office'. If those 
 
 Fourth, despite some robust use of regular expressions, the code still makes some assumptions about the data types/formats within specific columns. Values that don't get captured using the defined regex could be lost.
 
-Fifth, the path to the PostgreSQL database works in part because I've included my database's password and IP address. Another user will likely have a different password, and will need to change 'config.py' as a result.
+Fifth, the path to the PostgreSQL database works in part because I've included my database's password and IP address. Another user will likely have a different password, and will need to change "config.py" as a result.
